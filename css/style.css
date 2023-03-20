@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://i.ibb.co/0jrqRym/background-image.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120px;
+    color: #EBF1FB;
+    cursor: default;
+    transition: 0.3s;
+}
+
+#for, #living{
+    color: #5EEAD4;
+    transition: 0.3s;
+}
+
+p{
+    font-family: 'Spectral', serif;
+    color: #EBF1FB;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 72px;
+    cursor: default;
+}
+
+#learnmore{
+    color: #EBF1FB;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: underline;
+    font-family: 'Spectral', serif;
+    padding: 16px 32px;
+    transition: 0.3s;
+}
+
+#recipes{
+    background-color: #5EEAD4;
+    color: #0B0C0E;
+    font-family: 'Spectral', serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-left: 24px;
+    transition: 0.3s;
+}
+
+h1:hover{
+    color: #5EEAD4;
+}
+
+#eating:hover, #for:hover, #living:hover{
+    color: #EBF1FB;
+}
+
+#learnmore:hover, #recipes:hover{
+    font-size: 30px;
+    color: #EBF1FB;
+}
